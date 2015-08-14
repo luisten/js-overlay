@@ -4,17 +4,17 @@
  * @author      Luis Tenorio
  * @copyright   Copyright (C) 2015 LuisTen <www.luisten.com>. All rights reserved.
  * @license     http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @description Based on the ItpOverlay function created by Todor Iliev <todor@itprism.com>
+ * @description A simple and elegant jQuery overlay to display while waiting for AJAX queries. See the guide at http://www.luisten.com/blog/hypnotize-your-users-during-ajax-calls-with-this-js-overlay/
  */
 
 function showOverlay() {
-    // Adds an overlay
+    // Adds the fullscreen overlay
     var oDiv = $("<div></div>");
     oDiv.attr("id", "lt_overlay");
     oDiv.css("display", "block");
     $("body").append(oDiv);
 
-    // Adds loading
+    // Adds the spinner
     var lDiv = $("<i></i>");
     lDiv.attr("id", "lt_loading");
     lDiv.addClass("fa fa-cog fa-spin fa-5x");
@@ -23,7 +23,6 @@ function showOverlay() {
 }
 
 function hideOverlay() {
-    // Remove the overlay
     $("#lt_loading").remove();
     $("#lt_overlay").remove();
 }
