@@ -4,7 +4,9 @@
  * @author      Luis Tenorio
  * @copyright   Copyright (C) 2015 LuisTen <www.luisten.com>. All rights reserved.
  * @license     http://www.gnu.org/copyleft/gpl.html GNU/GPL
- * @description A simple and elegant jQuery overlay to display while waiting for AJAX queries. See the guide at http://www.luisten.com/blog/hypnotize-your-users-during-ajax-calls-with-this-js-overlay/
+ * @description A simple and elegant jQuery overlay to display while waiting for 
+ *              AJAX queries. See the guide at 
+ *              http://www.luisten.com/blog/hypnotize-your-users-during-ajax-calls-with-this-js-overlay/
  */
 
 function showOverlay() {
