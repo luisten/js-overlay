@@ -9,16 +9,12 @@ To make sure that the script works on your page, you have to include the jQuery
 and Font-Awesome references in your header.
 
 ###jQuery Reference
-Include the following:
-
-`<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+`<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>`
 
 
 
-###Font Awesome Reference
-Include the following:
-
-`<link rel="stylesheet" id="font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.2.3" type="text/css" media="all">
+###Font-Awesome Reference
+`<link rel="stylesheet" id="font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.2.3" type="text/css" media="all">`
 
 If you're using WordPress, use the following snippet in your PHP file:
 
@@ -34,8 +30,8 @@ function enqueue_font_awesome() {
 Make sure that you included the jQuery and Font-Awesome references in your 
 page's header.
 
-The overlay can be shown by simply calling showOverlay() at any moment and then 
-hidden using hideOverlay().
+The overlay can be shown by simply calling `showOverlay()` at any moment and then 
+hidden using `hideOverlay()`.
 
-To use it with an AJAX call, use showOverlay() in the beforeSend option and 
-hideOverlay() in the success and error options.
+To use it with an AJAX call, use `showOverlay()` in the beforeSend option and 
+`hideOverlay()` in the success and error options.
